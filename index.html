@@ -32,7 +32,7 @@
             <button class="navbar-toggler bianco" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -112,11 +112,11 @@
                 <h1 class="text-center">About</h1>
                 <p class="text-center">Separatore</p>
                 <div class="row d-flex justify-content-center text-center ">
-                    <div class="col-12 col-md-6 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                    <div class="col-8 col-md-6 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
                         quae
                         nobis dolore veritatis asperiores ea blanditiis ipsa, nulla fuga excepturi! Aut in deserunt eos
                         tempore blanditiis eveniet, eaque ipsam sit!</div>
-                    <div class="col-12 col-md-6 p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="col-8 col-md-6 p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Necessitatibus
                         illum expedita magnam voluptates quod repellendus quis quaerat quidem provident non. Error
                         dolores
@@ -132,12 +132,28 @@
             <div class="container-xxl py-3">
                 <h1 class="text-center">Contact me</h1>
                 <p class="text-center">Separatore</p>
-                <p>Nome</p>
-                <p>Email</p>
-                <p>Telefono</p>
-                <p>Messaggio</p>
-                <p class="text-center">bottone</p>
-            </div>
+                <div class="container mt-5">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Inserisci il tuo nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Indirizzo Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Inserisci la tua email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Numero di Telefono</label>
+                            <input type="tel" class="form-control" id="telefono"
+                                placeholder="Inserisci il tuo numero di telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="messaggio">Messaggio</label>
+                            <textarea class="form-control" id="messaggio" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Invia</button>
+                    </form>
+                </div>
         </section>
         <!-- /4sezione -->
     </main>
