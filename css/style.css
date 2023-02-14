@@ -1,23 +1,32 @@
+:root{
+    --ms-primary-color: #1abc9c;
+    --ms-secondary-color: #2c3e50;
+    --ms-secondary-light-color-color: #3a546d;
+    --ms-text-primary: white;
+    --ms-text-secondary: black;
+}
+
+
 .section_grey {
-    background-color: #2c3e50;
-    color: white;
+    background-color: var(--ms-secondary-color);
+    color: var(--ms-text-primary);
 }
 
 .bianco {
-    color: white;
+    color: var(--ms-text-primary);
 }
 
 .section_green {
-    background-color: #1abc9c;
+    background-color: var(--ms-primary-color);
 
 }
 
 .nero {
-    color: black;
+    color: var(--ms-text-secondary);
 }
 
 .section_light {
-    background-color: #3a546d;
+    background-color: var(--ms-secondary-light-color-color);
 }
 
 .fa-brands {
@@ -29,18 +38,18 @@
 }
 
 .ms-separation {
-    color: white;
+    color: var(--ms-text-primary);
 }
 
 .ms-separation2 {
-    color: black;
+    color: var(--ms-text-secondary);
 }
 
 .line {
     display: inline-block;
     height: 3px;
     width: 100px;
-    background-color: white;
+    background-color: var(--ms-text-primary);
     margin: 0 10px;
 }
 
@@ -48,7 +57,7 @@
     display: inline-block;
     height: 3px;
     width: 100px;
-    background-color:black;
+    background-color:var(--ms-text-secondary);
     margin: 0 10px;
 }
 
