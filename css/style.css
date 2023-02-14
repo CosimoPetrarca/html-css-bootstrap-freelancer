@@ -1,7 +1,7 @@
 :root{
     --ms-primary-color: #1abc9c;
     --ms-secondary-color: #2c3e50;
-    --ms-secondary-light-color-color: #3a546d;
+    --ms-secondary-light-color: #3a546d;
     --ms-text-primary: white;
     --ms-text-secondary: black;
 }
@@ -26,7 +26,7 @@
 }
 
 .section_light {
-    background-color: var(--ms-secondary-light-color-color);
+    background-color: var(--ms-secondary-light-color);
 }
 
 .fa-brands {
