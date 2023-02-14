@@ -24,6 +24,10 @@
     font-size: 1.875rem;
 }
 
+.jumbo{
+    width: 50%;
+}
+
 .ms-separation {
     color: white;
 }
